@@ -1,31 +1,30 @@
 package edu.wt.w07b;
 
 public class Question {
-    public String fullplot;
+    public String title;
     public String plot;
 
     @Override
     public String toString() {
 
-        return(fullplot);
+        return(title);
     }
 
     public Question() {
     }
 
-    public Question(String fullplot, String link, long id) {
-        this.setTitle(fullplot);
+    public Question(String title, String link, long id) {
+        this.setTitle(title);
         this.setLink(link);
     }
 
     public String getTitle() {
-
-        return fullplot;
+        return title;
     }
 
     public void setTitle(String title) {
 
-        this.fullplot = title;
+        this.title = title;
     }
 
     public String getLink() {

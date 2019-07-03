@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="No questions asked so far..."
+        android:text="No movies found :("
         android:id="@+id/questionsFound"
         android:layout_below="@+id/editQueryString"
         android:layout_alignParentLeft="true"
